@@ -1,3 +1,10 @@
-header > p {
-    color: aqua;
+body {
+    max-width: 1400px;
+}
+
+/* Logo */
+.logo {
+    position: absolute;
+    width: 61.09px;
+    height: 19px;
 }
