@@ -11,14 +11,12 @@ body {
     width: 61.09px;
     height: 19px;
 }
-
 nav {
     display: flex;
     justify-content: flex-end;
     gap: 20px
 
 }
-
 .presentation {
     font-family: 'Raleway';
     position: absolute;
@@ -26,4 +24,33 @@ nav {
     height: 26px;
     left: 55px;
     top: 126px;
+}
+
+/* Main */
+
+section > form {
+    position: absolute;
+    width: 332px;
+    height: 49px;
+    left: 55px;
+    top: 240px;
+}
+
+.with-icon {
+    background: url("../Images Booki/icon/icon-localisation.png") no-repeat scroll 7px 3px;
+    padding-left:30px;
+    background-size: 16px;
+}
+.i-button {
+    background-color: #0065FC;
+}
+.filtre {
+    position: absolute;
+    width: 54px;
+    height: 21px;
+    left: 62px;
+    top: 294px;
+}
+.filtre-nav {
+    display: flex;
 }
