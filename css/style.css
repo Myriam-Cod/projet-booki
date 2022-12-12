@@ -1,10 +1,29 @@
 body {
     max-width: 1400px;
 }
+@font-face {
+    font-family: 'Raleway';
+    src: url(http://fonts.googleapis.com/css?family=Raleway);
+  }
 
 /* Logo */
 .logo {
-    position: absolute;
     width: 61.09px;
     height: 19px;
+}
+
+nav {
+    display: flex;
+    justify-content: flex-end;
+    gap: 20px
+
+}
+
+.presentation {
+    font-family: 'Raleway';
+    position: absolute;
+    width: 575px;
+    height: 26px;
+    left: 55px;
+    top: 126px;
 }
